@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.welcome-banner {
+    margin: 20px 0;
+}
+
+.facilitation {
+    padding: 20px;
+    text-align: center;
+}
+
+.facilities {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facility {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#message-us {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .facilities {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

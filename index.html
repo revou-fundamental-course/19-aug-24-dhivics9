@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Profile Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="#">Achievement</a></li>
+                <li><a href="#message-us">Message Us</a></li>
+            </ul>
+        </nav>
+        <div class="welcome-banner">
+            <h1 id="welcome-message">Hi, Welcome To Website</h1>
+            <p>This is your school's official website!</p>
+        </div>
+    </header>
+
+    <!-- Our Facilitation Section -->
+    <section class="facilitation">
+        <h2>Our Facilitation</h2>
+        <div class="facilities">
+            <div class="facility">Professional Teacher</div>
+            <div class="facility">Sport Field</div>
+            <div class="facility">Classroom</div>
+        </div>
+    </section>
+
+    <!-- Message Us Section -->
+    <section id="message-us">
+        <h2>Message Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <!-- This is where the submitted data will be displayed -->
+        <div id="submitted-data"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by Dhivi</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
